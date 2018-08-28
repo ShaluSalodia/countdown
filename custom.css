@@ -47,7 +47,7 @@ p {
 
 @media only screen and (max-width: 768px) {
     .mr-b-mob{
-    margin-bottom:20px;
+    margin-top:20px;
     }
     mobFont{
         font-size:22px;
