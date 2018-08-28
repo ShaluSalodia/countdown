@@ -16,7 +16,7 @@ var x = setInterval(function () {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Output the result in an element with id="demo"
+    // Output the result in an element 
     document.getElementById("day").innerHTML = days + "\n days";
 
     document.getElementById("hour").innerHTML = hours + "\n hrs";
@@ -25,31 +25,31 @@ var x = setInterval(function () {
 
     document.getElementById("seconds").innerHTML = seconds + "\n sec";
 
-    var d = new Date();
-    var clueday = d.toDateString().split(" ", 1);
-    if (clueday == "Sat") {
-        location.href = "six.html";
-    }
-    else if (clueday == "Sun") {
-        location.href = "five.html";
-    }
-    else if (clueday == "Mon") {
-        location.href = "four.html";
-    }
-    else if (clueday == "Tue") {
-        location.href = "three.html";
-    }
-    else if (clueday == "Wed") {
-        location.href = "two.html";
-    }
-    else if (clueday == "Thu") {
-        location.href = "one.html";
-    }
-    else if (clueday == "Fri") {
-        location.href = "yourday.html";
-    }
-    else
-        location.href = "index.html";
+    // var d = new Date();
+    // var clueday = d.toDateString().split(" ", 1);
+    // if (clueday == "Sat") {
+    //     location.href = "six.html";
+    // }
+    // else if (clueday == "Sun") {
+    //     location.href = "five.html";
+    // }
+    // else if (clueday == "Mon") {
+    //     location.href = "four.html";
+    // }
+    // else if (clueday == "Tue") {
+    //     location.href = "three.html";
+    // }
+    // else if (clueday == "Wed") {
+    //     location.href = "two.html";
+    // }
+    // else if (clueday == "Thu") {
+    //     location.href = "one.html";
+    // }
+    // else if (clueday == "Fri") {
+    //     location.href = "yourday.html";
+    // }
+    // else
+    //     location.href = "index.html";
 
     // If the count down is over, write some text 
     if (distance < 0) {
