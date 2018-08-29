@@ -7,18 +7,20 @@ p {
     margin-top: 0px;
   }
   .counter{
-    border: 5px solid green;
+    border: 5px dotted green;
     padding: 20px;
     font-size: 50px;
     background-color: yellow;
   }
+
   .intro{
       font-size:20px;
       color: slateblue;
       background-color: aliceblue;
       padding:20px;
-      
-  }
+      box-shadow: 10px 10px 20px 10px #ddd;      
+   } 
+   
   .mr-t-20{
       margin-top:20px;
   }
