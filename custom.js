@@ -1,6 +1,34 @@
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 7, 2018").getTime();
 
+// var d = new Date();
+// var clueday = d.toDateString().split(" ", 1);
+// if (clueday == "Sat") {
+//     location.href = "six.html";
+// }
+// else if (clueday == "Sun") {
+//     location.href = "five.html";
+// }
+// else if (clueday == "Mon") {
+//     location.href = "four.html";
+// }
+// else if (clueday == "Tue") {
+//     location.href = "three.html";
+// }
+// else if (clueday == "Wed") {
+//     location.href = "two.html";
+// }
+// else if (clueday == "Thu") {
+//     location.href = "one.html";
+// }
+// // else if (clueday == "Fri") {
+// //     location.href = "yourday.html";
+// // }
+// else
+//     location.href = "index.html";
+
+
+
 // Update the count down every 1 second
 var x = setInterval(function () {
 
@@ -25,31 +53,6 @@ var x = setInterval(function () {
 
     document.getElementById("seconds").innerHTML = seconds + "\n sec";
 
-    var d = new Date();
-    var clueday = d.toDateString().split(" ", 1);
-    if (clueday == "Sat") {
-        location.href = "six.html";
-    }
-    else if (clueday == "Sun") {
-        location.href = "five.html";
-    }
-    else if (clueday == "Mon") {
-        location.href = "four.html";
-    }
-    else if (clueday == "Tue") {
-        location.href = "three.html";
-    }
-    else if (clueday == "Wed") {
-        location.href = "two.html";
-    }
-    else if (clueday == "Thu") {
-        location.href = "one.html";
-    }
-    // else if (clueday == "Fri") {
-    //     location.href = "yourday.html";
-    // }
-    else
-        location.href = "index.html";
 
     // If the count down is over, write some text 
     if (distance < 0) {
@@ -57,5 +60,7 @@ var x = setInterval(function () {
         document.getElementById("demo").innerHTML = "Happy Birthday!!!!";
     }
 }, 1000);
+
+
 
 
