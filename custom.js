@@ -55,11 +55,11 @@ else if (clueday == "Wed") {
 else if (clueday == "Thu") {
     location.href = "one.html";
 }
-// else if (clueday == "Fri") {
-//    location.href = "yourday.html";
+else if (clueday == "Fri") {
+   location.href = "index.html";
 // }
-else
-    location.href = "index.html";
+// else
+//     location.href = "index.html";
 
 
 
