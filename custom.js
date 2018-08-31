@@ -36,7 +36,7 @@ var x = setInterval(function () {
     }
 }, 1000);
 var d = new Date();
-var clueday = d.toDateString().split(" ", 1);
+var clueday = d.toDateString().split(" ", 0);
 if (clueday == "Sat") {
     location.href = "six.html";
 }
