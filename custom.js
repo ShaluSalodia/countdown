@@ -35,31 +35,31 @@ var x = setInterval(function () {
         document.getElementById("demo").innerHTML = "Happy Birthday!!!!";
     }
 }, 1000);
-// var d = new Date();
-// var clueday = d.toDateString().split(" ", 1);
-// if (clueday == "Sat") {
-//     location.href = "six.html";
-// }
-// else if (clueday == "Sun") {
-//     location.href = "five.html";
-// }
-// else if (clueday == "Mon") {
-//     location.href = "four.html";
-// }
-// else if (clueday == "Tue") {
-//     location.href = "three.html";
-// }
-// else if (clueday == "Wed") {
-//     location.href = "two.html";
-// }
-// else if (clueday == "Thu") {
-//     location.href = "one.html";
-// }
-// else if (clueday == "Fri") {
-//    location.href = "yourday.html";
-// }
-// else
-//     location.href = "index.html";
+var d = new Date();
+var clueday = d.toDateString().split(" ", 1);
+if (clueday == "Sat") {
+    location.href = "six.html";
+}
+else if (clueday == "Sun") {
+    location.href = "five.html";
+}
+else if (clueday == "Mon") {
+    location.href = "four.html";
+}
+else if (clueday == "Tue") {
+    location.href = "three.html";
+}
+else if (clueday == "Wed") {
+    location.href = "two.html";
+}
+else if (clueday == "Thu") {
+    location.href = "one.html";
+}
+else if (clueday == "Fri") {
+   location.href = "yourday.html";
+}
+else
+    location.href = "index.html";
 
 
 
