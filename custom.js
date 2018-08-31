@@ -55,9 +55,9 @@ var x = setInterval(function () {
 // else if (clueday == "Thu") {
 //     location.href = "one.html";
 // }
-// // else if (clueday == "Fri") {
-// //     location.href = "yourday.html";
-// // }
+// else if (clueday == "Fri") {
+//    location.href = "yourday.html";
+// }
 // else
 //     location.href = "index.html";
 
