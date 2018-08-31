@@ -58,8 +58,8 @@ else if (clueday == "Thu") {
 // else if (clueday == "Fri") {
 //    location.href = "index.html";
 // }
-else
-    location.href = "index.html";
+// else
+//     location.href = "index.html";
 
 
 
