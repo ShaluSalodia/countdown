@@ -41,7 +41,7 @@ if (clueday == "Sat") {
     location.href = "six.html";
 }
 else if (clueday == "Sun") {
-    location.href = "five.html";
+    location.href = "index.html";
 }
 else if (clueday == "Mon") {
     location.href = "four.html";
