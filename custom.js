@@ -38,7 +38,7 @@ var x = setInterval(function () {
 var d = new Date();
 var clueday = d.toDateString().split(" ")[0];
 if (clueday == "Sat") {
-    location.href = "six.html";
+    location.href = "index.html";
 }
 else if (clueday == "Sun") {
     location.href = "index.html";
